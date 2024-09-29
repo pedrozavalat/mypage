@@ -11,7 +11,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite start"
+    "start": "vite start",
+    "dev": "vite"
   },
   "dependencies": {
     "react": "^18.3.1",

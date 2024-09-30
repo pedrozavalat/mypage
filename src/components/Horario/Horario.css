@@ -1,0 +1,22 @@
+.horario {
+    width: 52.5vw;
+    height: 70vh;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Oculta el contenido que se sale del contenedor */
+    border: 1px solid #ccc; /* Añade un borde opcional */
+    transform: scale(1) translateX(-2%); 
+    
+}
+
+@media (max-width: 768px) {
+    .horario {
+        width: 100vw;
+        height: 65vh;
+        margin: 0;
+        padding: 0;
+        transform: scale(0.7) translateX(-27%);
+    }
+    
+}

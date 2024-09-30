@@ -25,9 +25,16 @@
     margin: 5px;
 }
 
-@media (max-width: 768px) {
+.card-mini {
+
+}
+
+@media (max-width: 600px) {
     .card {
         max-width: 90vw;
+        padding: 1rem;
+        border-radius: 1rem;
+        
     }
     .card-style-1 {
         min-width: 90%;
@@ -37,5 +44,16 @@
     .card-style-1 h3 {
         font-size: 1rem;
     }
+
+    .card-mini {
+        height: 23vh;
+    }
     
 }
+
+
+@media (max-width: 380px) {
+    .card-mini {
+        height: 23vh;
+    }
+} 

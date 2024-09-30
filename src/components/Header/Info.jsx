@@ -72,9 +72,13 @@ const Prices = () => {
                     <p>$20.000 por hora</p>
                 </div>
                 <div className="col card-style-1">
-                    <h3>Modalidad Presencial</h3>
+                    <h3>Modalidad Presencial (*)</h3>
                     <p>$25.000 por hora</p>
                 </div>
+            <p>
+            (*) Solamente en lugares como: Colina, Chicureo, y alrededores. También puede
+            ser en el Campus San Joaquín de la PUC. 
+            </p>
             </div>
         </div>
         </>

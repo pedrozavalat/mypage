@@ -15,15 +15,14 @@
 
 a {
   font-weight: 500;
-  color: #7f85f9;
+  color: #aeb2f6;
   text-decoration: inherit;
-  transition: all 0.3s;
 }
-a:hover {
+/* a:hover {
   color: #f8f8f8;
   transform: scale(1.2);
 
-}
+} */
 
 body {
   margin: 0;

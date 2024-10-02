@@ -10,6 +10,7 @@ import React from 'react';
 import Font, { Text } from 'react-font';
 import Horario from '../Horario/Horario';
 import myimg from '../../../public/me.jpg';
+import Form from '../Form/Form';
 
 const Header = () => {
     return (
@@ -40,7 +41,7 @@ const Header = () => {
 
 const General = () => {
     return (
-        <section className='info-container'>
+        <section className='info-container' id='general'>
             <h1>Informacion general </h1>
             <div className='card'>
                 <p>
@@ -87,7 +88,7 @@ const Prices = () => {
 
 const Experience = () => {
     return (
-        <section className='info-container'>
+        <section className='info-container' id='sobre-mi'>
         <h1>Sobre mi </h1>
         <div className='card'>
             <div className="information">
@@ -133,7 +134,7 @@ const Experience = () => {
 
 const Availability = () => {
     return (
-        <section className='info-container'>
+        <section className='info-container' id='horarios'>
             <h1>Horarios Disponibles </h1>
             <div className="card card-mini">
                 <Horario />
@@ -154,7 +155,7 @@ const Contact = () => {
     return (
         <>
         <h1>Contacto </h1>
-        <div className='card row'>
+        <div className='card row' id='contacto'>
             <div className="col">
                 <h2>Email</h2>
                 
@@ -213,9 +214,16 @@ function Info() {
                 <Experience />
             </AnimationOnScroll>
             
+            <AnimationOnScroll animateIn="animate__slideInRight" animateOnce={true} offset={500}>
+                <Form />
+            </AnimationOnScroll>
+            
+            
             <AnimationOnScroll animateIn="animate__slideInUp" delay={50} animateOnce={true} offset={500}>
                 <Contact />
             </AnimationOnScroll>
+
+
         </Font>
         </>
     )

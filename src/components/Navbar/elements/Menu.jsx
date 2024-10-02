@@ -22,6 +22,7 @@ const MenuItems = () => {
             <a href="#general">General</a>
             <a href="#horarios">Horarios</a>
             <a href="#sobre-mi">Sobre mi</a>
+            <a href="#formulario">Agendar</a>
             <a href="#contacto">Contacto</a>
         </>
     )

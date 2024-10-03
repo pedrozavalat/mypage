@@ -70,7 +70,7 @@ ${formData.comentarios || 'No especificado'}
                             required
                             onChange={handleRadioChange}
                         />
-                        Ayuda en Tarea o Proyecto
+                        Resolver dudas en Tarea o Proyecto
                     </label>
                     <label htmlFor="aprendizaje">
                         <input

@@ -50,7 +50,7 @@ const General = () => {
                 </p>
                 <ul>
                     <li>Reforzar tus conocimientos en programación con Python,</li>
-                    <li>Resolver tareas o proyectos académicos o personales,</li>
+                    <li>Resolver dudas en tareas o proyectos académicos o personales,</li>
                     <li>O aprender Python desde cero.</li>
                 </ul>
             
@@ -214,7 +214,7 @@ function Info() {
                 <Experience />
             </AnimationOnScroll>
             
-            <AnimationOnScroll animateIn="animate__slideInRight" animateOnce={true} offset={500}>
+            <AnimationOnScroll animateIn="animate__slideInLeft" animateOnce={true} offset={500}>
                 <Form />
             </AnimationOnScroll>
             

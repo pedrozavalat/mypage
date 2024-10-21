@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { apiKey, spreedID } from '../../api/googleapis';
 
 function Horario() {
+  const [isOk, setIsOk] = useState(false);
   const [days, setDays] = useState([]);
   const [hours, setHours] = useState([]);
   const [avaliability, setAvaliability] = useState({
@@ -92,11 +93,16 @@ function Horario() {
       })
       .finally(() => {
         console.log("Datos cargados");
+        setIsOk(true);
       });
   }, [spreedID, apiKey]);
 
   console.log(avaliability);
   console.log(hours);
+
+  if (!isOk) {
+    return <p className='downloading'>Cargando ... </p>;
+  }
 
   return (
     <>

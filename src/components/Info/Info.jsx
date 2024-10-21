@@ -136,7 +136,7 @@ const Availability = () => {
     return (
         <section className='info-container' id='horarios'>
             <h1>Horarios Disponibles </h1>
-            <div className="card card-mini">
+            <div className="card">
                 <Horario />
             </div>
         </section>
